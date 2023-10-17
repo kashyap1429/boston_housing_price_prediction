@@ -36,7 +36,3 @@ if st.button('Predict'):
     
     # Display the prediction
     st.write(f'The predicted house price is: {prediction[0]}')
-
-# Run the Streamlit app
-if __name__ == '__main__':
-    st.run()
